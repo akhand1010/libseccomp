@@ -12,8 +12,10 @@ notifications:
 
 arch:
   - amd64
-  - arm64
-  - ppc64le
+  - arm64-graviton2
+
+virt: lxd
+group: edge
 
 os:
   - linux
